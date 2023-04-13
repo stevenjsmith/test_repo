@@ -1,4 +1,4 @@
-name: Caller Example
+name: Development Example
 
 on:
   workflow_dispatch:
