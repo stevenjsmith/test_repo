@@ -1,13 +1,12 @@
-name: Development Example
+name: Deploy Development 
 
 on:
   workflow_dispatch:
 
 jobs:
-  build-dev:
-    name: build dev
+  publish-development:
+    name: publish development
     uses: ./.github/workflows/main.yml
     with:
       environment: development
     secrets: inherit
-    
