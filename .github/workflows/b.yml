@@ -1,3 +1,8 @@
+name: Caller Example
+
+on:
+  workflow_dispatch:
+
 jobs:
   build-dev:
     uses: ./.github/workflows/main.yml
