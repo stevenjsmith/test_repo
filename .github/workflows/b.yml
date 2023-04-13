@@ -5,6 +5,9 @@ on:
 
 jobs:
   build-dev:
+    name: build dev
     uses: ./.github/workflows/main.yml
+    with:
+      environment: development
     secrets: inherit
     
