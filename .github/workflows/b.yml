@@ -6,5 +6,6 @@ on:
 jobs:
   build-dev:
     uses: ./.github/workflows/main.yml
-    secrets: inherit
+    secrets: 
+      SERVER_ENVIRONMENT: ${{ secrets.SERVER_ENVIRONMENT }}
     
