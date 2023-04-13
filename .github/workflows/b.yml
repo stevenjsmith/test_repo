@@ -1,0 +1,5 @@
+jobs:
+  build-dev:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    
