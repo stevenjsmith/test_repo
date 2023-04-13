@@ -6,7 +6,7 @@ on:
 jobs:
   publish-development:
     name: publish development
-    uses: ./.github/workflows/main.yml
+    uses: ./.github/workflows/deploy.yml
     with:
       environment: development
     secrets: inherit
