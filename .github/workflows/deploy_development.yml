@@ -8,5 +8,5 @@ jobs:
     name: publish development
     uses: ./.github/workflows/deploy.yml
     with:
-      environment: developmentfail
+      environment: development
     secrets: inherit
